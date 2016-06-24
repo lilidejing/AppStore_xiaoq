@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appinformation>
+    
+    <!-- 
+        <appinfo id="app的ID，相当于编号，123456往下填">
+		<appName>app的名称</appName>
+		<appIconUrl>app显示的图片地址</appIconUrl>
+		<appUrl>app的下载地址</appUrl>
+		<appVersion>版本号</appVersion>
+		<appSize>app大小</appSize>
+	</appinfo> 
+	-->
+    
+    
+	<appinfo id="1">
+		<appName>简单wifi</appName>
+		<appIconUrl>http://112.124.43.99/csw_market/yingyin/baidu-video.jpg</appIconUrl>
+		<appUrl>http://112.124.43.99/apk/wifi-new/wifi_csw.apk</appUrl>
+		<appVersion>版本:1.1.0</appVersion>
+		<appSize>大小:4.45M</appSize>
+	</appinfo>
+	
+	<appinfo id="2">
+		<appName>电视直播</appName>
+		<appIconUrl>http://112.124.43.99/csw_market/yingyin/1111.jpg</appIconUrl>
+		<appUrl>http://www.csw-smart.com/apk/cswtv.rar</appUrl>
+		<appVersion>版本:1.6.0</appVersion>
+		<appSize>大小:1.32M</appSize>
+	</appinfo>
+	
+	<appinfo id="3">
+		<appName>电视点播</appName>
+		<appIconUrl>http://112.124.43.99/csw_market/yingyin/4.jpg</appIconUrl>
+		<appUrl>http://www.csw-smart.com/apk/cswtv.rar</appUrl>
+		<appVersion>版本:1.4.0</appVersion>
+		<appSize>大小:2.32M</appSize>
+	</appinfo>
+	
+
+</appinformation>

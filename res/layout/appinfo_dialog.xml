@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:gravity="center">
+
+    
+
+        <ImageView
+            android:id="@+id/appIconDiaImageView"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+
+        <RelativeLayout
+            android:id="@+id/appinfoLayout"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:layout_marginLeft="10dip"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:id="@+id/appinfoLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/appNameDiaText"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5" />
+
+                <TextView
+                    android:id="@+id/appVerisonDiaText"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="5" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/appSizeDiaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/appinfoLayout2"
+                android:layout_marginTop="5dip" />
+        </RelativeLayout>
+    
+    
+    
+
+</LinearLayout>
